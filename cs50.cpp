@@ -18,7 +18,7 @@ int get_int(string str, int i) // an int
   {
     // prompts the user for input
     std::cout << str;
-    std::cin >> input;
+    std::getline(std::cin >> std::ws, input);
 
     // checks if the input is a valid int
     i = std::stoi(input);
