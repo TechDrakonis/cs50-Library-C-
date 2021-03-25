@@ -12,4 +12,4 @@ The original cs50 library documentation: https://cs50.readthedocs.io/libraries/c
 For the c++s50 header I used an template function:
 
 ### explanation of get_value functions
-  <body> </body>
+    <body> </body>
