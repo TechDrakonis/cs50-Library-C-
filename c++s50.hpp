@@ -158,16 +158,7 @@ string get_value <string> (string outstr)
 template <typename T>
 void get_value(string outstr, T &value)
 {
-  /* std::cout << "Not an supported Data Type! Supported Data Types are: c, d, f, i, l, s ...";
-  getchar();
-  throw "error"; */
   value = get_value <T> (outstr);
-}
-
-template <>
-void get_value <char> (string outstr, char &value)
-{
-  value = get_value <char> (outstr);
 }
 
 #endif // CS50.HPP
