@@ -29,3 +29,5 @@ The original cs50 library documentation: <https://cs50.readthedocs.io/libraries/
       // T get_value(std::string outstr);
       std::cout << get_value <double> ("Please input a floating point number: ") << "\n";
     }
+
+> an example of the usage is provided, see the [TicTacToe](https://github.com/TechDrakonis/TicTacToe) repository...
